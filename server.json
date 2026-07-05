@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MrBridgeHQ/mcp-server-latest-news",
+  "description": "Real-time news, crypto prices & earthquake data for AI assistants: 14 tools over 27 free APIs, no API keys",
+  "version": "0.1.28",
+  "repository": {
+    "url": "https://github.com/MrBridgeHQ/latest-news-mcp",
+    "source": "github",
+    "id": "MrBridgeHQ/latest-news-mcp"
+  },
+  "remotes": [
+    { "type": "sse", "url": "https://mrbridge--latest-news-mcp-server.apify.actor/mcp" }
+  ]
+}
